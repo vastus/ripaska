@@ -1,0 +1,51 @@
+body {
+  width: 50em;
+  margin: 0 auto;
+
+}
+
+header h1 a {
+  font-size: 2em;
+  position: relative;
+}
+
+h1, h2, h3 {
+  color: #333;
+  font-family: georgia, times, serif;
+}
+
+h1 a, h2 a, h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.post {
+  border-bottom: 1px solid #eee;
+}
+
+.post:last-child {
+  border: none;
+}
+
+.post:hover {
+  box-shadow: 3px 3px 9px #9e9e9e;
+}
+
+.post a {
+  padding: 1em;
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+.post a .title h1 {
+  color: #444;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.post a .content {
+  color: #111;
+  font-size: 0.85em;
+}
+

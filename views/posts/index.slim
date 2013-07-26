@@ -1,0 +1,11 @@
+#posts
+  - for post in @posts
+    .post
+      a href="/posts/#{post.get(:slug)}" title="Read the whole article"
+        .title
+          h1 = post.get(:title)
+        .content
+          = post.get(:content)
+        .meta
+          = post.get(:created_at)
+
